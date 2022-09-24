@@ -198,8 +198,22 @@ body {
     border: 1px solid black;
 }
 
+.main .page3 .darukibottle {
+    margin-top: 14px;
+    display: flex;
+    width: 100vh;
+    overflow: auto;
+    margin-left: 61vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* overflow:hidden; */
+
+}
+
+
+
 .main .page3 .darukibottle .img2 {
-    margin-left: 45%;
+    margin-left: 5%;
 }
 
 .main .page3 .darukibottle .img2 img {
