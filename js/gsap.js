@@ -4,6 +4,8 @@ gsap.from("#botl", {
     opacity: 0
 
 })
+
+
 gsap.from("h5", {
     y: 200,
     delay: 0.5,
@@ -38,6 +40,12 @@ gsap.from(".buttonPage3", {
     opacity: 1,
     delay: 2,
     opacity: 0
+})
+gsap.from(".swiper", {
+    y: 500,
+    delay:2.1,
+    opacity: 0
+
 })
 gsap.from(".rightHalf", {
     y: 200,
