@@ -227,7 +227,7 @@ body {
 
 }
 
-.main .swiper-slide img {
+.main .swiper .swiper-wrapper .swiper-slide img {
     margin-left: 217px;
     width: 30%;
 
