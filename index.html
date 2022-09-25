@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -33,7 +35,7 @@
                 </a>
                 <div class="arrow"><i class="ri-arrow-right-s-line"></i></div>
             </div>
-            <div class="img"><img src="asset/bottle.png" alt="" srcset=""></div>
+            <div class="img"><img id="botl" src="asset/bottle.png" alt="" srcset=""></div>
 
         </div>
         <div class="page2">
@@ -64,12 +66,25 @@
                 <button class="btnn">SEE ALL</button>
             </div>
 
+            <div class="swiper">
 
-            <div class="darukibottle">
-                <div class="img2"><img src="asset/bottle.png" alt="" srcset=""></div>
-                <div class="img2"><img src="asset/bottle.png" alt="" srcset=""></div>
-                <div class="img2"><img src="asset/bottle.png" alt="" srcset=""></div>
-                <div class="img2"><img src="asset/bottle.png" alt="" srcset=""></div>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img src="asset/bottle.png"></div>
+                    <div class="swiper-slide"><img src="asset/bottle.png"></div>
+                    <div class="swiper-slide"><img src="asset/bottle.png"></div>
+                    <div class="swiper-slide"><img src="asset/bottle.png"></div>
+                    <div class="swiper-slide"><img src="asset/bottle.png"></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
             </div>
 
         </div>
@@ -129,7 +144,11 @@
 
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+        integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/gsap.js"></script>
     <script src="js/script.js"></script>
 </body>
 

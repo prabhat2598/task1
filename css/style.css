@@ -210,14 +210,27 @@ body {
 
 }
 
-
-
 .main .page3 .darukibottle .img2 {
     margin-left: 5%;
 }
 
 .main .page3 .darukibottle .img2 img {
     height: 333px;
+}
+
+.main .swiper {
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main .swiper-slide img {
+    margin-left: 217px;
+    width: 30%;
+
 }
 
 .main .page4 {
