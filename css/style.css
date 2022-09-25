@@ -228,11 +228,15 @@ body {
 }
 
 .main .swiper .swiper-wrapper .swiper-slide img {
-    margin-left: 217px;
-    width: 30%;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 21%;
 
 }
+.main .swiper .swiper-wrapper .swiper-slide {
+   display:flex;
 
+}
 .main .page4 {
     height: 100vh;
     width: 100%;
